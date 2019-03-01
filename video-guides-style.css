@@ -1,6 +1,6 @@
 .quizzz-video-link img {
     vertical-align: -3px;
-    border-right: 5px solid white;
+    padding-right: 5px;
 }
 /* .quizzz-video-link {
     padding-bottom: 5px;
