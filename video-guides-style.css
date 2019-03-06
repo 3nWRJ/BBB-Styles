@@ -1,3 +1,9 @@
+.bbb-gp-video-link a::before{
+    content:url('https://bigbrassband.atlassian.net/wiki/download/attachments/92111390/video.png?api=v2');
+    display: inline-block;
+    width: 16px;
+  }
+
 .bbb-gp-video-link img {
     vertical-align: -3px;
     padding-right: 5px;
