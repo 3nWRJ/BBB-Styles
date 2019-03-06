@@ -11,13 +11,3 @@
     height: 16px;
     
   }
-
-.bbb-gp-video-link img {
-    vertical-align: -3px;
-    padding-right: 5px;
-}
-
-.bbb-gp-video-link img,
-.wiki-content .bbb-gp-video-link .confluence-embedded-file-wrapper .confluence-embedded-image {
-    display: inline-block;
-}
