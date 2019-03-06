@@ -1,12 +1,14 @@
 .bbb-gp-video-link a::before{
     display: inline-block;
-    content: "";
+    content: " ";
     
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB2klEQVRIia2WuUoDURSGvwwSQhpBS3vXQq1CUCNaaGGh5BVSuHT2ioq+gI0LPoNbI2gRl4gQLMTCuDyAXQobBQsjJ5wkOnfmTmb0K+895/yTs93EyN4SQCcwA0wAvUC7mpeBEnAGHAEvtjA2oVFgHRgxbrwpAMvApde1Y5xAAtgBzkOIoLbn6psIEmoD8sBs9deGJ6a+eY3lKZQEToB0BAE3aY2V9BLaBFKGS3RSGvOXkBQ+ZwmZBV6N02ByGrsutBFQk0NtbSl0xbj1J6axq0L9wLCvaYM3YB7IAI/GrT8Su9/RtIThGhgA1oDPJv2yTshZqSECq8CgCgeREaHuACMbJS32gqbWjy7nx+6KyhewDfRp03jR7rWColKxdaSjW/gvSAvPaRr9GqssQk/GcfNIfa80da0Wr2dH13tY4sAKcN/kDBZE6MA4tjME3Gl7x62WDfYd/apmZkFSs6Wp6jVu/ZHY97WuW7J1jD7lD7qCwnRqRV/dupM8v3uGWQOZjw7jNBiJeYHr6xaBYoRgfhQ1Jm6hd2Dqn8SKGuvdSwgd3jFgN6BmfoiP+I67F4FXYT900kXwJoSI2IqA+NZ/SY0Wi6M0iMyMTP80MAn0uP5AygN4ChxbNwzwDTNSWnJlbX18AAAAAElFTkSuQmCC);
     
     background-size: 16px 16px;
     margin-right: 5px;
     vertical-align: -2px;
+    width: 16px;
+    height: 16px;
     
   }
 
