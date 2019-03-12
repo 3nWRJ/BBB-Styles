@@ -1,7 +1,32 @@
-.bbb-gp-collapsible-panel{
-    background-color: azure
+.panel{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sectionMacro{
+    margin-top: 0px;
+}
+.expand-control{
+    margin-bottom: 0px;
+}
+.expand-control-text{
+    font-size: 16px;
+}
+.panel-content{
+    padding-top: 30px;
 }
 .bbb-gp-label{
     float: right;
-    color: brown
+    background-color: #1A49A0;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    color: white;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 2px;
+    margin-right: 10px;
 }
