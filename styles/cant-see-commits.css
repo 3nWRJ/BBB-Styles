@@ -1,32 +1,59 @@
-.panel{
+.bbb-my-page-div{
+    font-size:16px;
+}
+.bbb-my-page-div .panel{
+    margin: 0px 10%;
+}
+.bbb-my-page-div .sectionMacro{
+    margin-top: 0px;
+}
+.bbb-my-page-div .expand-content{
+    margin-top: 10px;
+}
+.bbb-my-page-div .expand-content.expand-hidden {
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
-.sectionMacro{
-    margin-top: 0px;
-}
-.expand-control{
+.bbb-my-page-div .expand-control{
     margin-bottom: 0px;
 }
-.expand-control-text{
-    font-size: 16px;
+.bbb-my-page-div .expand-control-text{
+    color: #0052cc;
 }
-.panel-content{
-    padding-top: 30px;
-}
-.bbb-gp-label{
+.bbb-my-page-div .bbb-gp-label{
+    margin-top: -2px;
     float: right;
-    background-color: #1A49A0;
+    background-color: #0052cc;
     font-size: 12px;
     letter-spacing: 0.03em;
     color: white;
     text-align: center;
-    padding-bottom: 3px;
-    padding-top: 4px;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 4px 5px 3px 5px;
     border-radius: 2px;
-    margin-right: 10px;
+}
+
+.bbb-my-page-div .it-didnt-help p::before,
+.bbb-my-page-div .it-didnt-help p::after,
+.bbb-my-page-div .cant-see-commits p::after {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAB0CAYAAADtjpBvAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKtSURBVHgB7ZvfbeJAEMaXf++UwHUAkkHijXQQKrikgnAVJFQAqYC7CkgHyRsSGEEJLoF3BNwM2uPMxPDZ4ERR9P2kCDNedn/CM7ObBwouJ8Iw3MXfB0FQcBdQdF8MCiEohKAQgkIICiEohKAQgkIICiEohKAQgkIICiEohKAQgkIICiEohKAQgkIICiEohKAQgkIICiEohKAQgkIICiEohKAQgkIICiEohKAQgkIICiEohKAQgkIICiEohKAQgkKILydUtoHJZFKrVCqjUqnUbTQaK/cJLBaL6mazGa/X6/ujb2g2m3VEZiGXHRkwcp+EX0vXfi3GZQqFwqtcVn3odj6fP7oPxq9x69/WDkLlcnkpL8v44N1u9xSG4U/3QYjMna4Rjx2ENF/kGXblMjKfG06n07rLGc1VkRmYcHSUQ+12O9put10zqFosFsc6gctRRvPF/U+PPbr2u7JvtVpLMf9lwvvKczkhc411znhM19S1E/tQs9kcysuzCXfkmQ/clfgkrhuZvl/zdGMMgqAnL2/mgz2pxp67ECmQB5vEuobIHGJnO7U2R2eSXFrDQFuEy4gvjKEJR9oM44GzQr7ybuRyZaRGWZJcx2phmPB+bi2k1EKKr7ykJB9ry0ef1zG+omrm1r2VSSWkSPb/1sQz4bqIwiSXMY/ufUX1JUdfksan3u018WTyP2biu3Pbi97TQjDhl3gSWzL9ONbvyrr51swtTf5xilgkhdI4d4rI/Gtd32VVKp4/K/M+KRYlJfHVQkrsZJAaeXQ38qje0LiLTow6ccL2ck6mn0ZGuegb+od0Xm10D2DYs+/6qbhKSBEpzadTx5OlyDRcBq4+5J84QymRv5eJq78hRfcp2RqOzjci8wNVVBK5/Buk55j49qIJf4lM7kg7eNI/9534CxWDHrVmMxKpAAAAAElFTkSuQmCC);
+    display: block;
+    content: " ";
+    position: relative;
+    left: calc(50% - 4px);
+    background-size: 8px 28px;
+    width: 8px;
+    height: 28px;
+}
+
+.bbb-my-page-div .it-didnt-help p::before{
+    margin-bottom: 5px;
+}
+
+.bbb-my-page-div .it-didnt-help p::after,
+.bbb-my-page-div .cant-see-commits p::after {
+    margin-top: 5px;
+}
+
+.bbb-my-page-div .cant-see-commits{
+      margin-top: 50px;
 }
